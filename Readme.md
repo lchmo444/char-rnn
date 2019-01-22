@@ -13,6 +13,8 @@ If you are new to Torch/Lua/Neural Nets, it might be helpful to know that this c
 
 This code is written in Lua and requires [Torch](http://torch.ch/). If you're on Ubuntu, installing Torch in your home directory may look something like: 
 
+This code requires cmake
+
 ```bash
 $ curl -s https://raw.githubusercontent.com/torch/ezinstall/master/install-deps | bash
 $ git clone https://github.com/torch/distro.git ~/torch --recursive
