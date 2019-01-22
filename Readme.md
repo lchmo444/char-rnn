@@ -23,6 +23,10 @@ $ source ~/.bashrc
 
 See the Torch installation documentation for more details. After Torch is installed we need to get a few more packages using [LuaRocks](https://luarocks.org/) (which already came with the Torch install). In particular:
 
+luarcoks results some error. i propose method above
+sudo install/bin/luarocks install ~~
+
+
 ```bash
 $ luarocks install nngraph 
 $ luarocks install optim
@@ -30,6 +34,7 @@ $ luarocks install nn
 ```
 
 If you'd like to train on an NVIDIA GPU using CUDA (this can be to about 15x faster), you'll of course need the GPU, and you will have to install the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit). Then get the `cutorch` and `cunn` packages:
+
 
 ```bash
 $ luarocks install cutorch
